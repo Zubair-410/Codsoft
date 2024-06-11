@@ -4,17 +4,18 @@
     font-family: 'Roboto', sans-serif;
 }
 body{
-    background-color: #2d3e50;
+    background-image: url("pexels-jessbaileydesign-1097930.jpg");
     display: grid;
     height: 100vh;
     place-items: center;
+    background-size: cover;
 }
 .main{
     width: 400px;
     height: 450px;
-    background-color: white;
+    background-color: rgb(240, 216, 216);
     position: absolute;
-    border: 5px solid black;
+    border: 2px solid black;
     border-radius: 10px; 
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
@@ -31,7 +32,7 @@ body{
     padding: 3px 6px;
     outline: none;
     font-size: 40px;
-    border: 5px solid black;
+    border: 2px solid black;
     display: flex;
     margin: auto;
     border-radius: 6px;
@@ -52,7 +53,7 @@ body{
     background-color: #495250;
     border-radius: 50px;
     color: white;
-    border: none;
+    border: 2px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .btn input[type='button']:hover{
